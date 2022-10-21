@@ -32,6 +32,11 @@ header {
 header h1 {
     font-size: 24px;
     font-variation-settings: "wght" 800;
+    transition: opacity 0.2s linear 0s;
+}
+header h1:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 header nav ul {
     display: flex;
@@ -44,6 +49,11 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #323A45;
+    transition: opacity 0.2s linear 0s;
+}
+header nav ul li a:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 /* =====================
         Main
@@ -105,6 +115,8 @@ main {
 .fig32 {grid-area: fig32;}
 img {
     width: 100%;
+
+    transition: opacity 0.4s ease-out 0s;
 }
 main figure h4 {
     display: flex;
@@ -114,8 +126,12 @@ main figure h4 {
 }
 main figure p {
     color: #848484;
-}
 
+}
+img:hover {
+    cursor: pointer;
+    opacity: 0.35;
+}
 /* =====================
         Footer
 ======================*/
