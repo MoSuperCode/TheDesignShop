@@ -244,4 +244,14 @@ footer >div {
     ;
     gap: 2rem;
     }
+    #top {
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        font-size: 32px;
+        text-decoration: none;
+        background-color: #848484;
+        padding:5px 15px 2px 15px;
+        border-radius: 50%;
+    
 }
