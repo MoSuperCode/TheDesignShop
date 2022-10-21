@@ -8,7 +8,9 @@ Farbe: #323A45 / #848484 */
     font-family: karla;
     src: url("../fonts/Karla-VariableFont_wght.ttf");
 }
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -142,7 +144,7 @@ footer {
 }
 footer ul {
     display: grid ;
-    grid-template-columns: 1.5fr 0.6fr 1fr 1fr;
+    grid-template-columns: 1.6fr 0.6fr 1fr 1fr;
 }
 footer ul li {
     height: 20vh;
@@ -175,4 +177,71 @@ footer >div {
     color: #848484;
     gap:1rem
 }
+#top {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    font-size: 32px;
+    text-decoration: none;
+    background-color: #848484;
+    padding:5px 15px 2px 15px;
+    border-radius: 50%;
 
+}
+
+/* =====================
+        Mobile
+======================*/
+@media only screen and (max-width:600px) {
+    footer ul {
+        display: grid ;
+        grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 1fr;
+    }
+    footer ul li {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "fig1"
+    "fig2"
+    "fig3"
+    "fig4"
+    "fig5"
+    "fig6"
+    "fig7"
+    "fig8"
+    "fig9"
+    "fig10" 
+    "fig11"
+    "fig12" 
+    "fig13" 
+    "fig14"
+    "fig15"
+    "fig16" 
+    "fig17" 
+    "fig18"
+    "fig19" 
+    "fig20" 
+    "fig21"
+    "fig22" 
+    "fig22" 
+    "fig22"
+    "fig23" 
+    "fig24" 
+    "fig25"
+    "fig26" 
+    "fig27" 
+    "fig28"
+    "fig29"
+    "fig30" 
+    "fig31" 
+    "fig32"
+    ;
+    gap: 2rem;
+    }
+}
