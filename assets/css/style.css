@@ -1,0 +1,162 @@
+/* Assets:
+
+Font: Karla
+
+Farbe: #323A45 / #848484 */
+
+@font-face {
+    font-family: karla;
+    src: url("../fonts/Karla-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: karla;
+}
+body,a, span {
+    color:#323A45
+}
+/* =====================
+        Header
+======================*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 5vh auto;
+    color: #323A45;
+}
+header h1 {
+    font-size: 24px;
+    font-variation-settings: "wght" 800;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #323A45;
+}
+/* =====================
+        Main
+======================*/
+main {
+    width: 90%;
+    margin: 5vh auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "fig1 fig1 fig1"
+    "fig2 fig3 fig4"
+    "fig5 fig6 fig7"
+    "fig8 fig8 fig8"
+    "fig9 fig10 fig11"
+    "fig12 fig13 fig14"
+    "fig15 fig15 fig15"
+    "fig16 fig17 fig18"
+    "fig19 fig20 fig21"
+    "fig22 fig22 fig22"
+    "fig23 fig24 fig25"
+    "fig26 fig27 fig28"
+    "fig29 fig29 fig29"
+    "fig30 fig31 fig32"
+    ;
+    gap: 2rem;
+}
+.fig1 {grid-area: fig1;}
+.fig2 {grid-area: fig2;}
+.fig3 {grid-area: fig3;}
+.fig4 {grid-area: fig4;}
+.fig5 {grid-area: fig5;}
+.fig6 {grid-area: fig6;}
+.fig7 {grid-area: fig7;}
+.fig8 {grid-area: fig8;}
+.fig9 {grid-area: fig9;}
+.fig10 {grid-area: fig10;}
+.fig11 {grid-area: fig11;}
+.fig12 {grid-area: fig12;}
+.fig13 {grid-area: fig13;}
+.fig14 {grid-area: fig14;}
+.fig15 {grid-area: fig15;}
+.fig16 {grid-area: fig16;}
+.fig17 {grid-area: fig17;}
+.fig18 {grid-area: fig18}
+.fig19 {grid-area: fig19;}
+.fig20 {grid-area: fig20;}
+.fig21 {grid-area: fig21;}
+.fig22 {grid-area: fig22;}
+.fig23 {grid-area: fig23;}
+.fig24 {grid-area: fig24;}
+.fig25 {grid-area: fig25;}
+.fig26 {grid-area: fig26;}
+.fig27 {grid-area: fig27;}
+.fig28 {grid-area: fig28;}
+.fig29 {grid-area: fig29;}
+.fig30 {grid-area: fig30;}
+.fig31 {grid-area: fig31;}
+.fig32 {grid-area: fig32;}
+img {
+    width: 100%;
+}
+main figure h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+main figure p {
+    color: #848484;
+}
+
+/* =====================
+        Footer
+======================*/
+footer {
+    width: 90%;
+    margin: 5vh auto;
+    height: 20vh;
+}
+footer ul {
+    display: grid ;
+    grid-template-columns: 1.5fr 0.6fr 1fr 1fr;
+}
+footer ul li {
+    height: 20vh;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+footer ul li p {
+    line-height: 1.65rem;
+}
+footer ul li a {
+    text-decoration: none;
+
+}
+a.first {
+    font-variation-settings: "wght" 600;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    justify-self: flex-start;
+}
+footer ul li p span, footer ul li a span {
+    font-variation-settings: "wght" 600;
+}
+footer >div {
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    color: #848484;
+    gap:1rem
+}
+
